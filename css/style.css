@@ -1,0 +1,121 @@
+/* birinci tapsiriq */
+.umumim{
+    display:   flex;
+}
+
+
+.one {
+    background-color: green;
+    flex-grow: 4;
+}
+.two {
+    background-color: green;
+    margin-left: 30px;
+
+}
+.tree {
+    background-color: green;
+    margin-left: 30px;
+    flex-grow: 4;
+
+}
+.olcu {
+    width: 300px;
+    height: 300px;
+}
+
+/* ikinci tapsiriq */
+
+.one1 {
+    background-color: green;
+    flex-grow: 1;
+}
+.two2 {
+    background-color: green;
+    margin-left: 30px;
+    flex-grow: 4;
+
+}
+.tree3 {
+    background-color: green;
+    margin-left: 30px;
+    flex-grow: 2;
+
+}
+
+/* ucuncu taprisiq */
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+}
+
+.button-pirmay2{
+    margin-left: 100px;
+}
+
+.button-pirmay{
+    margin-left: 300px;
+}
+
+.button-pirmay3{
+    margin-left: -80px;
+}
+
+.button-pirmay1{
+    margin-right: 150px;
+}
+
+
+/* dorduncu taprisiq */
+
+.container{
+  border-radius: 20px;  
+  width: 1420px;  
+  height: 800px;
+  position: relative;
+  border: 3px solid #4D7298; 
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .btn1{
+    background-color: #4D7298;
+    justify-content: center;
+    color: white;
+    border: none;
+    width: 600px;
+    height: 150px;
+    text-decoration: none;
+    display: flex;
+    font-size: 80px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.yazi{
+    margin-top: 30px;
+    margin-left: -200px;
+}
